@@ -57,7 +57,7 @@ function About() {
                   </h2>
 
                   <p className="text-gray-400 mt-2">
-                    Projects Completed
+                    Projects Completed from
                   </p>
                 </div>
 
