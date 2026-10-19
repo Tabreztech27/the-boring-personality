@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   FaInstagram,
   FaLinkedin,
@@ -215,40 +216,28 @@ function Footer() {
               text-gray-400
             ">
 
-              <li className="
-                hover:text-[#A78BFA]
-                cursor-pointer
-                transition
-                duration-300
-              ">
-                Home
+              <li>
+                <Link to="/" className="hover:text-[#A78BFA] transition duration-300">
+                  Home
+                </Link>
               </li>
 
-              <li className="
-                hover:text-[#A78BFA]
-                cursor-pointer
-                transition
-                duration-300
-              ">
-                About
+              <li>
+                <Link to="/about" className="hover:text-[#A78BFA] transition duration-300">
+                  About
+                </Link>
               </li>
 
-              <li className="
-                hover:text-[#A78BFA]
-                cursor-pointer
-                transition
-                duration-300
-              ">
-                Categories
+              <li>
+                <Link to="/categories" className="hover:text-[#A78BFA] transition duration-300">
+                  Categories
+                </Link>
               </li>
 
-              <li className="
-                hover:text-[#A78BFA]
-                cursor-pointer
-                transition
-                duration-300
-              ">
-                Contact
+              <li>
+                <Link to="/categories" className="hover:text-[#A78BFA] transition duration-300">
+                  Curriculum
+                </Link>
               </li>
 
             </ul>
@@ -273,20 +262,28 @@ function Footer() {
               text-gray-400
             ">
 
-              <li className="hover:text-[#A78BFA] transition duration-300 cursor-pointer">
-                Confidence Development
+              <li>
+                <Link to="/mindset" className="hover:text-[#A78BFA] transition duration-300">
+                  Mindset & Motivation
+                </Link>
               </li>
 
-              <li className="hover:text-[#A78BFA] transition duration-300 cursor-pointer">
-                Communication Skills
+              <li>
+                <Link to="/grooming" className="hover:text-[#A78BFA] transition duration-300">
+                  Grooming & Appearance
+                </Link>
               </li>
 
-              <li className="hover:text-[#A78BFA] transition duration-300 cursor-pointer">
-                Dressing Style
+              <li>
+                <Link to="/categories" className="hover:text-[#A78BFA] transition duration-300">
+                  Confidence Development
+                </Link>
               </li>
 
-              <li className="hover:text-[#A78BFA] transition duration-300 cursor-pointer">
-                Fitness & Grooming
+              <li>
+                <Link to="/categories" className="hover:text-[#A78BFA] transition duration-300">
+                  Communication Skills
+                </Link>
               </li>
 
             </ul>
